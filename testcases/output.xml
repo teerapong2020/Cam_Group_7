@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.0 on win32)" generated="2026-03-05T16:11:18.442656" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.0 on win32)" generated="2026-03-05T16:31:08.769049" rpa="false" schemaversion="5">
 <suite id="s1" name="TC002" source="D:\Doppio\Mini_proj\Cam_Group_7\testcases\TC002.robot">
 <test id="s1-t1" name="TC02 - Verify user cannot register when required fields are empty" line="6">
 <kw name="open web" owner="common">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-03-05T16:11:18.738089" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\Doppio\\Mini_proj\\Cam_Group_7\\testcases\\browser\\traces\\temp\\7c008e35-c33a-4023-bfe7-3e5237c24b87"}</msg>
-<msg time="2026-03-05T16:11:18.759540" level="INFO">Starting Browser process D:\Doppio\doppio\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:53096</msg>
-<msg time="2026-03-05T16:11:19.988389" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\Doppio\\Mini_proj\\Cam_Group_7\\testcases\\browser\\traces\\temp\\7c008e35-c33a-4023-bfe7-3e5237c24b87"}</msg>
+<msg time="2026-03-05T16:31:09.064611" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\Doppio\\Mini_proj\\Cam_Group_7\\testcases\\browser\\traces\\temp\\d5ef82c5-a7f9-43d3-af80-07f4ed826f61"}</msg>
+<msg time="2026-03-05T16:31:09.085201" level="INFO">Starting Browser process D:\Doppio\doppio\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:53796</msg>
+<msg time="2026-03-05T16:31:10.323026" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\Doppio\\Mini_proj\\Cam_Group_7\\testcases\\browser\\traces\\temp\\d5ef82c5-a7f9-43d3-af80-07f4ed826f61"}</msg>
 <arg>chromium</arg>
 <arg>${False}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-05T16:11:18.737523" elapsed="1.251038"/>
+<status status="PASS" start="2026-03-05T16:31:09.064044" elapsed="1.259193"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2026-03-05T16:11:19.990555" level="INFO">{
+<msg time="2026-03-05T16:31:10.325896" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -29,72 +29,78 @@
     "height": 720
   }
 }</msg>
-<msg time="2026-03-05T16:11:20.002699" level="INFO">Successfully created context. </msg>
-<msg time="2026-03-05T16:11:20.002784" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-03-05T16:31:10.338423" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-05T16:31:10.338503" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2026-03-05T16:11:19.988783" elapsed="0.014074"/>
+<status status="PASS" start="2026-03-05T16:31:10.323475" elapsed="0.015102"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-03-05T16:11:20.853055" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th/en/profile/sign-up/?</msg>
+<msg time="2026-03-05T16:31:12.455155" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th/en/profile/sign-up/?</msg>
 <arg>https://www.ikea.com/th/${LANG}/profile/sign-up/?</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-05T16:11:20.003048" elapsed="0.850203"/>
+<status status="PASS" start="2026-03-05T16:31:10.338766" elapsed="2.116570"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:18.737026" elapsed="2.116356"/>
+<status status="PASS" start="2026-03-05T16:31:09.063547" elapsed="3.391907"/>
 </kw>
 <kw name="Check cookie and click Accept all cookies" owner="common">
 <kw name="Run Keyword And Return Status" owner="BuiltIn">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-05T16:11:21.710661" level="INFO">Waited for Element with selector css=#onetrust-banner-sdk at state visible</msg>
+<msg time="2026-03-05T16:31:12.481097" level="INFO">Waited for Element with selector css=#onetrust-banner-sdk at state visible</msg>
 <arg>${main_locator.cookie_dialog}</arg>
 <arg>visible</arg>
 <arg>timeout=5s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-05T16:11:20.855588" elapsed="0.855215"/>
+<status status="PASS" start="2026-03-05T16:31:12.457191" elapsed="0.024067"/>
 </kw>
-<msg time="2026-03-05T16:11:21.710950" level="INFO">${visible} = True</msg>
+<msg time="2026-03-05T16:31:12.481615" level="INFO">${visible} = True</msg>
 <var>${visible}</var>
 <arg>Browser.Wait For Elements State</arg>
 <arg>${main_locator.cookie_dialog}</arg>
 <arg>visible</arg>
 <arg>timeout=5s</arg>
 <doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
-<status status="PASS" start="2026-03-05T16:11:20.854910" elapsed="0.856062"/>
+<status status="PASS" start="2026-03-05T16:31:12.456708" elapsed="0.025086"/>
 </kw>
 <if>
 <branch type="IF" condition="${visible}">
 <kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:11:21.711859" level="INFO">Clicks the element 'css=#onetrust-accept-btn-handler'.</msg>
+<msg time="2026-03-05T16:31:12.483046" level="INFO">Clicks the element 'css=#onetrust-accept-btn-handler'.</msg>
 <arg>${main_locator.btn_accept_all_cookie}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:21.711441" elapsed="0.031801"/>
+<status status="PASS" start="2026-03-05T16:31:12.482396" elapsed="0.096451"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:21.711075" elapsed="0.032274"/>
+<status status="PASS" start="2026-03-05T16:31:12.481915" elapsed="0.097036"/>
 </branch>
-<status status="PASS" start="2026-03-05T16:11:21.711046" elapsed="0.032364"/>
+<status status="PASS" start="2026-03-05T16:31:12.481879" elapsed="0.097126"/>
 </if>
-<status status="PASS" start="2026-03-05T16:11:20.853859" elapsed="0.889613"/>
+<status status="PASS" start="2026-03-05T16:31:12.455938" elapsed="0.123127"/>
 </kw>
 <kw name="Verify message checkbox privacy is displayed" owner="register_feature">
 <kw name="Verify Checkbox privacy require message" owner="register_page">
-<kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:11:21.745258" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
-<arg>${register_locator.btn_sign_up}</arg>
+<kw name="Check Checkbox" owner="Browser">
+<arg>${register_locator.checkbox_privacy}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:21.744802" elapsed="0.858763"/>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:31:12.580264" elapsed="1.427718"/>
+</kw>
+<kw name="Uncheck Checkbox" owner="Browser">
+<arg>${register_locator.checkbox_privacy}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Unchecks the checkbox found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:31:14.008197" elapsed="0.025999"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:11:22.629573" level="INFO">Text: 'Please confirm that you agree to the Privacy Policy to proceed'</msg>
+<msg time="2026-03-05T16:31:14.056787" level="INFO">Text: 'Please confirm that you agree to the Privacy Policy to proceed'</msg>
 <arg>${register_locator.alert_checkbox}</arg>
 <arg>==</arg>
 <arg>${TC02.register_require_message_checkbox}</arg>
@@ -102,24 +108,24 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.603840" elapsed="0.025851"/>
+<status status="PASS" start="2026-03-05T16:31:14.034410" elapsed="0.022485"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:21.744498" elapsed="0.885308"/>
+<status status="PASS" start="2026-03-05T16:31:12.579957" elapsed="1.477042"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:21.743966" elapsed="0.885894"/>
+<status status="PASS" start="2026-03-05T16:31:12.579419" elapsed="1.477631"/>
 </kw>
 <kw name="Verify all error message is displayed" owner="register_feature">
 <kw name="Verify Input first name require message" owner="register_page">
 <kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:11:22.631829" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
+<msg time="2026-03-05T16:31:14.058714" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
 <arg>${register_locator.btn_sign_up}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.631378" elapsed="0.022305"/>
+<status status="PASS" start="2026-03-05T16:31:14.058248" elapsed="0.025628"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:11:22.665287" level="INFO">Text: 'The first name field cannot be left empty'</msg>
+<msg time="2026-03-05T16:31:14.095697" level="INFO">Text: 'The first name field cannot be left empty'</msg>
 <arg>${register_locator.alert_first_name}</arg>
 <arg>==</arg>
 <arg>${TC02.register_require_message_first_name}</arg>
@@ -127,21 +133,21 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.653884" elapsed="0.011510"/>
+<status status="PASS" start="2026-03-05T16:31:14.084095" elapsed="0.011714"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:22.631064" elapsed="0.034436"/>
+<status status="PASS" start="2026-03-05T16:31:14.057927" elapsed="0.037987"/>
 </kw>
 <kw name="Verify Input last name require message" owner="register_page">
 <kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:11:22.666643" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
+<msg time="2026-03-05T16:31:14.097021" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
 <arg>${register_locator.btn_sign_up}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.666164" elapsed="0.017645"/>
+<status status="PASS" start="2026-03-05T16:31:14.096550" elapsed="0.032296"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:11:22.694974" level="INFO">Text: 'The last name field cannot be left empty'</msg>
+<msg time="2026-03-05T16:31:14.139202" level="INFO">Text: 'The last name field cannot be left empty'</msg>
 <arg>${register_locator.alert_last_name}</arg>
 <arg>==</arg>
 <arg>${TC02.register_require_message_last_name}</arg>
@@ -149,21 +155,21 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.684018" elapsed="0.011061"/>
+<status status="PASS" start="2026-03-05T16:31:14.129073" elapsed="0.010257"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:22.665674" elapsed="0.029506"/>
+<status status="PASS" start="2026-03-05T16:31:14.096097" elapsed="0.043485"/>
 </kw>
 <kw name="Verify Input email require message" owner="register_page">
 <kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:11:22.696437" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
+<msg time="2026-03-05T16:31:14.140759" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
 <arg>${register_locator.btn_sign_up}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.695956" elapsed="0.021624"/>
+<status status="PASS" start="2026-03-05T16:31:14.140276" elapsed="0.019062"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:11:22.726879" level="INFO">Text: 'The email address field cannot be left empty'</msg>
+<msg time="2026-03-05T16:31:14.170291" level="INFO">Text: 'The email address field cannot be left empty'</msg>
 <arg>${register_locator.alert_email}</arg>
 <arg>==</arg>
 <arg>${TC02.register_require_message_email}</arg>
@@ -171,21 +177,21 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.717818" elapsed="0.009158"/>
+<status status="PASS" start="2026-03-05T16:31:14.159547" elapsed="0.010852"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:22.695488" elapsed="0.031589"/>
+<status status="PASS" start="2026-03-05T16:31:14.139784" elapsed="0.030723"/>
 </kw>
 <kw name="Verify Input password require message" owner="register_page">
 <kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:11:22.728149" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
+<msg time="2026-03-05T16:31:14.171673" level="INFO">Clicks the element 'css=[data-testid="sign-up-create-account"]'.</msg>
 <arg>${register_locator.btn_sign_up}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.727703" elapsed="0.017588"/>
+<status status="PASS" start="2026-03-05T16:31:14.171176" elapsed="0.017304"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:11:22.754359" level="INFO">Text: 'The password field cannot be left empty'</msg>
+<msg time="2026-03-05T16:31:14.196972" level="INFO">Text: 'The password field cannot be left empty'</msg>
 <arg>${register_locator.alert_password}</arg>
 <arg>==</arg>
 <arg>${TC02.register_require_message_password}</arg>
@@ -193,18 +199,18 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:11:22.745561" elapsed="0.008893"/>
+<status status="PASS" start="2026-03-05T16:31:14.188704" elapsed="0.008358"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:22.727250" elapsed="0.027310"/>
+<status status="PASS" start="2026-03-05T16:31:14.170699" elapsed="0.026458"/>
 </kw>
-<status status="PASS" start="2026-03-05T16:11:22.630480" elapsed="0.124129"/>
+<status status="PASS" start="2026-03-05T16:31:14.057405" elapsed="0.139803"/>
 </kw>
-<msg time="2026-03-05T16:11:22.761893" level="INFO">Switching context to context=7ec3e8b7-6cf0-4295-8dc1-bfb4b2a5828b in CURRENT</msg>
-<msg time="2026-03-05T16:11:22.765666" level="INFO">Successfully changed active context: context=7ec3e8b7-6cf0-4295-8dc1-bfb4b2a5828b</msg>
-<msg time="2026-03-05T16:11:22.784856" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2026-03-05T16:11:18.736463" elapsed="4.018394"/>
+<msg time="2026-03-05T16:31:14.204947" level="INFO">Switching context to context=5a93786a-7b73-4d05-821a-77ec6dd041c6 in CURRENT</msg>
+<msg time="2026-03-05T16:31:14.208638" level="INFO">Successfully changed active context: context=5a93786a-7b73-4d05-821a-77ec6dd041c6</msg>
+<msg time="2026-03-05T16:31:14.227540" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-05T16:31:09.063007" elapsed="5.134554"/>
 </test>
-<status status="PASS" start="2026-03-05T16:11:18.443807" elapsed="4.344193"/>
+<status status="PASS" start="2026-03-05T16:31:08.770399" elapsed="5.457997"/>
 </suite>
 <statistics>
 <total>
@@ -217,8 +223,8 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2026-03-05T16:11:18.727402" level="WARN">Imported resource file 'D:\Doppio\Mini_proj\Cam_Group_7\resources\locators\main_locator.robot' is empty.</msg>
-<msg time="2026-03-05T16:11:18.729295" level="WARN">Imported resource file 'D:\Doppio\Mini_proj\Cam_Group_7\keywords\pages\main_page.robot' is empty.</msg>
-<msg time="2026-03-05T16:11:18.731001" level="WARN">Imported resource file 'D:\Doppio\Mini_proj\Cam_Group_7\keywords\features\main_feature.robot' is empty.</msg>
+<msg time="2026-03-05T16:31:09.054766" level="WARN">Imported resource file 'D:\Doppio\Mini_proj\Cam_Group_7\resources\locators\main_locator.robot' is empty.</msg>
+<msg time="2026-03-05T16:31:09.056594" level="WARN">Imported resource file 'D:\Doppio\Mini_proj\Cam_Group_7\keywords\pages\main_page.robot' is empty.</msg>
+<msg time="2026-03-05T16:31:09.058272" level="WARN">Imported resource file 'D:\Doppio\Mini_proj\Cam_Group_7\keywords\features\main_feature.robot' is empty.</msg>
 </errors>
 </robot>
