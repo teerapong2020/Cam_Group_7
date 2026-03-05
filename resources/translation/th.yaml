@@ -1,0 +1,3 @@
+th:
+    login_email_required: โปรดกรอกอีเมลที่ถูกต้อง
+    login_password_required: เกิดข้อผิดพลาดขณะเข้าสู่ระบบ
