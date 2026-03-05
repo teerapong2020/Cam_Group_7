@@ -9,9 +9,15 @@ TC_IKEA_004
     #2
     nav_page.Search product    ${search_value_004}
     #3
-    Debug
     product_list_page.Click product for frist index
-    product_list_page.Click increase amount
+    #4
+    product_detail_page.Check product name
+    #5
+    product_detail_page.Click increase amount
+    #6
+    product_detail_page.Click add to cart
+    #7
+    product_detail_page.Click go to bag
 
 
     
