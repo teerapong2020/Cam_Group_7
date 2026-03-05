@@ -1,14 +1,18 @@
-***Keywords***
-common_page.Open Web
-    [Arguments]        ${url}
-    Browser.New Browser    chromium        ${FALSE}
+*** Variables ***
+
+${main_locator.cookie_dialog}    css=#onetrust-banner-sdk
+${main_locator.btn_accept_all_cookie}    css=#onetrust-accept-btn-handler
+
+*** Keywords ***
+open web
+    Browser.New Browser    chromium    ${False}
     Browser.New Context
-    Browser.New Page   ${url}
-take_result_image
-    Take Screenshot   fullPage=True    fileType=jpeg    quality=50
-check cookie and click accept
-    ${state_pop_up}=    Browser.Get Element States    ${main_page.pop_up_cookie}
-    IF     ${state_pop_up}
-        Browser.Click    ${main_page.pop_up_cookie}
+    #Browser.New Page    https://www.ikea.com/th/${LANG}/
+    Browser.New Page    https://www.ikea.com/th/${LANG}/profile/sign-up/?
+
+Check cookie and click Accept all cookies
+    ${visible}=    Run Keyword And Return Status    Browser.Wait For Elements State    ${main_locator.cookie_dialog}    visible    timeout=5s
+    IF    ${visible}
+        Browser.Click    ${main_locator.btn_accept_all_cookie}
     END
-    
+
