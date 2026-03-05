@@ -4,3 +4,4 @@ TC02:
   register_require_message_email: "The email address field cannot be left empty"
   register_require_message_password: "The password field cannot be left empty"
   register_require_message_checkbox: "Please confirm that you agree to the Privacy Policy to proceed"
+url:  https://www.ikea.com/th/en/
