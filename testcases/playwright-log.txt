@@ -1,0 +1,76 @@
+{"level":30,"time":"2026-03-05T09:11:19.334Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Listening on 127.0.0.1:53096"}
+{"level":30,"time":"2026-03-05T09:11:19.801Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:11:19.986Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-05T09:11:19.986Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T09:11:19.986Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:11:19.991Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T09:11:19.991Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-05T09:11:19.991Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@30180a7d9bd2ba7521d6b97bcf2bd430\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=6f8b460c-96dc-4c9f-ab95-0ec9ecd77266\"}"}
+{"level":30,"time":"2026-03-05T09:11:19.992Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T09:11:20.001Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Setting default timeout for context context=7ec3e8b7-6cf0-4295-8dc1-bfb4b2a5828b to 10000"}
+{"level":30,"time":"2026-03-05T09:11:20.001Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Changed active context: context=7ec3e8b7-6cf0-4295-8dc1-bfb4b2a5828b"}
+{"level":30,"time":"2026-03-05T09:11:20.001Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T09:11:20.004Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T09:11:20.004Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@30180a7d9bd2ba7521d6b97bcf2bd430\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=7ec3e8b7-6cf0-4295-8dc1-bfb4b2a5828b\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@90d814afd25960aba86bde7900d85ef6\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=6f8b460c-96dc-4c9f-ab95-0ec9ecd77266\"}"}
+{"level":30,"time":"2026-03-05T09:11:20.101Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T09:11:20.101Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:11:20.851Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T09:11:20.857Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T09:11:20.857Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=#onetrust-banner-sdk in page."}
+{"level":30,"time":"2026-03-05T09:11:21.709Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T09:11:21.712Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:21.712Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=#onetrust-accept-btn-handler in page."}
+{"level":30,"time":"2026-03-05T09:11:21.741Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:21.745Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:21.745Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"sign-up-create-account\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:22.601Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.605Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.606Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=.pp-skapa__helper-text--error:has-text(\"Privacy Policy\") in page."}
+{"level":30,"time":"2026-03-05T09:11:22.628Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Retrieved text for element css=.pp-skapa__helper-text--error:has-text(\"Privacy Policy\") containing Please confirm that you agree to the Privacy Policy to proceed"}
+{"level":30,"time":"2026-03-05T09:11:22.628Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.632Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.632Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"sign-up-create-account\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:22.652Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.655Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.655Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[role=\"alert\"] >> nth=0 in page."}
+{"level":30,"time":"2026-03-05T09:11:22.663Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Retrieved text for element css=[role=\"alert\"] >> nth=0 containing The first name field cannot be left empty"}
+{"level":30,"time":"2026-03-05T09:11:22.663Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.667Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.667Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"sign-up-create-account\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:22.682Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.685Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.685Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[role=\"alert\"] >> nth=1 in page."}
+{"level":30,"time":"2026-03-05T09:11:22.693Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Retrieved text for element css=[role=\"alert\"] >> nth=1 containing The last name field cannot be left empty"}
+{"level":30,"time":"2026-03-05T09:11:22.693Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.696Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.697Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"sign-up-create-account\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:22.716Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.719Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.719Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[role=\"alert\"] >> nth=2 in page."}
+{"level":30,"time":"2026-03-05T09:11:22.725Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Retrieved text for element css=[role=\"alert\"] >> nth=2 containing The email address field cannot be left empty"}
+{"level":30,"time":"2026-03-05T09:11:22.725Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.728Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.728Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"sign-up-create-account\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:22.744Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:22.747Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.747Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Strict mode is disabled, return first Locator: css=[role=\"alert\"] >> nth=3 in page."}
+{"level":30,"time":"2026-03-05T09:11:22.753Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Retrieved text for element css=[role=\"alert\"] >> nth=3 containing The password field cannot be left empty"}
+{"level":30,"time":"2026-03-05T09:11:22.753Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:22.756Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.757Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.758Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.759Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.760Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.760Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.762Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.762Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.763Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Changed active context: context=7ec3e8b7-6cf0-4295-8dc1-bfb4b2a5828b"}
+{"level":30,"time":"2026-03-05T09:11:22.763Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Changing current active page: page=af629e1b-4b99-478c-8466-4ec2375aa635"}
+{"level":30,"time":"2026-03-05T09:11:22.763Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:11:22.765Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:11:22.777Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Removed page=7676e00f-7c95-4db7-bc8f-444c5c5d2a97 from context=7ec3e8b7-6cf0-4295-8dc1-bfb4b2a5828b page stack"}
+{"level":30,"time":"2026-03-05T09:11:22.783Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:11:22.790Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.790Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:22.821Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T09:11:22.931Z","pid":948,"hostname":"LAPTOP-20SVP95N","msg":"End of node method closeAllBrowsers"}
