@@ -1,0 +1,6 @@
+TC02:
+  register_require_message_first_name: "ต้องกรอกข้อมูลในช่อง ชื่อจริง"
+  register_require_message_last_name: "ต้องกรอกข้อมูลในช่อง นามสกุล"
+  register_require_message_email: "ต้องกรอกข้อมูลในช่อง อีเมล"
+  register_require_message_password: "ต้องกรอกข้อมูลในช่อง รหัสผ่าน"
+  register_require_message_checkbox: "กรุณายืนยันว่าคุณยอมรับนโยบายความเป็นส่วนตัวเพื่อดำเนินการต่อ"
