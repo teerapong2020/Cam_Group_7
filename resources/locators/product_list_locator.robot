@@ -13,7 +13,12 @@ ${product_list_page.product_price}       css=#product-list .plp-price-module__de
 ${prduct_list_page.div_product_item}    div[data-testid="plp-product-card"]
 
 #btn add to cart
-${product_list_page.bth}    button[aria-label="Add to cart"]
+${product_list_page.bth}    div.pipf-add-to-cart-section__buttons span.pipf-btn__label
 
 #increase amount 
-${product_list_page.btn_increase_amount}    button[aria-label="Increase quantity button"]
+${product_list_page.btn_increase_amount_en}     button[aria-label="Increase quantity button"]
+${product_list_page.btn_increase_amount_th}    button[aria-label="ปุ่มเพิ่มปริมาณ"]  
+#go to bag
+${product_list_page.btn_go_to_bag}    div.rec-modal-footer  a.rec-btn
+#name in page detail
+${product_list_page.txt_product_name}    span.pipcom-price-module__name-decorator 
