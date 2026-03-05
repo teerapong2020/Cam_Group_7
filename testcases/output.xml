@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-03-05T16:48:20.391210" rpa="false" schemaversion="5">
+<suite id="s1" name="IKEA 001" source="D:\Robot framework\Cam_Group_7\testcases\IKEA_001.robot">
+<test id="s1-t1" name="IKEA_001 Verify that user cannot login with empty or invalid credentials" line="6">
+<kw name="Open IKEA website" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-05T16:48:21.134726" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\Robot framework\\Cam_Group_7\\testcases\\browser\\traces\\temp\\d6ee5f03-1934-47e9-a98c-ede7a44669a8"}</msg>
+<msg time="2026-03-05T16:48:21.641877" level="INFO">Starting Browser process C:\Users\Gigabyte\AppData\Roaming\Python\Python314\site-packages\Browser\wrapper\index.js using at 127.0.0.1:65110</msg>
+<msg time="2026-03-05T16:48:23.021651" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\Robot framework\\Cam_Group_7\\testcases\\browser\\traces\\temp\\d6ee5f03-1934-47e9-a98c-ede7a44669a8"}</msg>
+<arg>chromium</arg>
+<arg>${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-05T16:48:21.133940" elapsed="1.888024"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-05T16:48:23.025917" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-03-05T16:48:23.047335" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-05T16:48:23.047473" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-05T16:48:23.022770" elapsed="0.024838"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-05T16:48:24.566105" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th</msg>
+<arg>https://www.ikea.com/th</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-05T16:48:23.047881" elapsed="1.518519"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:21.133229" elapsed="3.433357"/>
+</kw>
+<kw name="go to profile login" owner="top_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T16:48:24.568703" level="INFO">Clicks the element 'css=[data-tracking-label="profile"][rel="nofollow"]'.</msg>
+<arg>${top_bar.btn_login}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:24.567755" elapsed="0.213555"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:24.567139" elapsed="0.214319"/>
+</kw>
+<kw name="click login" owner="login_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T16:48:24.782846" level="INFO">Clicks the element 'css=[data-testid="login"]'.</msg>
+<arg>${login_locator.btn_login}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:24.782280" elapsed="0.420823"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:24.781831" elapsed="0.421412"/>
+</kw>
+<kw name="wait for check email" owner="login_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-05T16:48:25.211423" level="INFO">Waited for Element with selector css=.skapa-mvagent-wrapper-prefix-form-field__content at state visible</msg>
+<arg>${login_locator.lbl.email}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-05T16:48:25.204197" elapsed="0.007434"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:25.203646" elapsed="0.008110"/>
+</kw>
+<kw name="check error email" owner="login_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T16:48:25.243533" level="INFO">Text: 'Please enter a valid email'</msg>
+<msg time="2026-03-05T16:48:25.243733" level="INFO">${e_email} = Please enter a valid email</msg>
+<var>${e_email}</var>
+<arg>${login_locator.lbl.email}</arg>
+<arg>==</arg>
+<arg>${en.login_email_required}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:25.212555" elapsed="0.031207"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:25.212133" elapsed="0.031755"/>
+</kw>
+<kw name="input email" owner="login_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T16:48:25.246779" level="INFO">Fills the text 'camp_26@doppiotech.com' in the given field.</msg>
+<arg>${login_locator.txt_email}</arg>
+<arg>${x}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:25.245660" elapsed="0.016104"/>
+</kw>
+<arg>${IKEA_001.email}</arg>
+<status status="PASS" start="2026-03-05T16:48:25.244318" elapsed="0.017594"/>
+</kw>
+<kw name="click login" owner="login_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T16:48:25.263384" level="INFO">Clicks the element 'css=[data-testid="login"]'.</msg>
+<arg>${login_locator.btn_login}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:25.262842" elapsed="0.041266"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:25.262379" elapsed="0.041877"/>
+</kw>
+<kw name="wait for check password" owner="login_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-05T16:48:26.136397" level="INFO">Waited for Element with selector css=.skapa-mvagent-wrapper-prefix-inline-message__content h6 at state visible</msg>
+<arg>${login_locator.lbl.password1}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-05T16:48:25.305103" elapsed="0.831494"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:25.304642" elapsed="0.832128"/>
+</kw>
+<kw name="check error password1" owner="login_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T16:48:26.150009" level="INFO">Text: 'There was a problem signing in'</msg>
+<msg time="2026-03-05T16:48:26.150189" level="INFO">${e_password1} = There was a problem signing in</msg>
+<var>${e_password1}</var>
+<arg>${login_locator.lbl.password1}</arg>
+<arg>==</arg>
+<arg>${en.login_password_required1}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:26.137465" elapsed="0.012752"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:26.137103" elapsed="0.013227"/>
+</kw>
+<kw name="check error password2" owner="login_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T16:48:26.164852" level="INFO">Text: 'It’s our fault, not yours. Please try again later to see if we can work it out.'</msg>
+<msg time="2026-03-05T16:48:26.165049" level="INFO">${e_password2} = It’s our fault, not yours. Please try again later to see if we can work it out.</msg>
+<var>${e_password2}</var>
+<arg>${login_locator.lbl.password2}</arg>
+<arg>==</arg>
+<arg>${en.login_password_required2}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:26.151438" elapsed="0.013641"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:26.151036" elapsed="0.014156"/>
+</kw>
+<kw name="input password" owner="login_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T16:48:26.166696" level="INFO">Fills the text 'Camp123*' in the given field.</msg>
+<arg>${login_locator.txt_password}</arg>
+<arg>${y}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:26.166233" elapsed="0.010437"/>
+</kw>
+<arg>${IKEA_001.password}</arg>
+<status status="PASS" start="2026-03-05T16:48:26.165552" elapsed="0.011315"/>
+</kw>
+<kw name="click login" owner="login_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T16:48:26.178612" level="INFO">Clicks the element 'css=[data-testid="login"]'.</msg>
+<arg>${login_locator.btn_login}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:26.177836" elapsed="0.034519"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:26.177311" elapsed="0.035188"/>
+</kw>
+<kw name="check error no id" owner="login_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T16:48:27.569976" level="INFO">Text: 'The email address or password you entered is incorrect or the account does not exist in IKEA Thailand'</msg>
+<msg time="2026-03-05T16:48:27.570134" level="INFO">${e_no_id} = The email address or password you entered is incorrect or the account does not exist in IKEA Thailand</msg>
+<var>${e_no_id}</var>
+<arg>${login_locator.lbl.no_id}</arg>
+<arg>==</arg>
+<arg>${en.login_no_id}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:48:26.213344" elapsed="1.356819"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:48:26.212904" elapsed="1.357372"/>
+</kw>
+<kw name="Debug" owner="DebugLibrary">
+<doc>Open a interactive shell, run any RobotFramework keywords.</doc>
+<status status="PASS" start="2026-03-05T16:48:27.570546" elapsed="72.043088"/>
+</kw>
+<msg time="2026-03-05T16:49:39.619057" level="INFO">Switching context to context=5a1150e1-d9fd-4544-9f03-17f57f686200 in CURRENT</msg>
+<msg time="2026-03-05T16:49:39.621017" level="INFO">Successfully changed active context: context=5a1150e1-d9fd-4544-9f03-17f57f686200</msg>
+<msg time="2026-03-05T16:49:39.627026" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-05T16:48:21.132250" elapsed="78.481618"/>
+</test>
+<status status="PASS" start="2026-03-05T16:48:20.392489" elapsed="79.235519"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="IKEA 001" id="s1" pass="1" fail="0" skip="0">IKEA 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

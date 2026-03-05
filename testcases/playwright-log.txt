@@ -1,0 +1,73 @@
+{"level":30,"time":"2026-03-05T09:48:22.153Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Listening on 127.0.0.1:65110"}
+{"level":30,"time":"2026-03-05T09:48:22.685Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:48:23.018Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-05T09:48:23.018Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T09:48:23.018Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:48:23.027Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T09:48:23.028Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-05T09:48:23.028Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@bc425a6a8522f1cf93cd55165a94c7e4\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=7db47722-2df9-4eee-94db-8e29c8c8da65\"}"}
+{"level":30,"time":"2026-03-05T09:48:23.028Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T09:48:23.044Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Setting default timeout for context context=5a1150e1-d9fd-4544-9f03-17f57f686200 to 10000"}
+{"level":30,"time":"2026-03-05T09:48:23.044Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Changed active context: context=5a1150e1-d9fd-4544-9f03-17f57f686200"}
+{"level":30,"time":"2026-03-05T09:48:23.044Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T09:48:23.050Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T09:48:23.051Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@bc425a6a8522f1cf93cd55165a94c7e4\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=5a1150e1-d9fd-4544-9f03-17f57f686200\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@3503ab92391da108b66a9b45b55850dc\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=7db47722-2df9-4eee-94db-8e29c8c8da65\"}"}
+{"level":30,"time":"2026-03-05T09:48:23.178Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T09:48:23.178Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:48:24.563Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T09:48:24.570Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:48:24.570Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=[data-tracking-label=\"profile\"][rel=\"nofollow\"] in page."}
+{"level":30,"time":"2026-03-05T09:48:24.779Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:48:24.783Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:48:24.783Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"login\"] in page."}
+{"level":30,"time":"2026-03-05T09:48:25.201Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:48:25.205Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T09:48:25.205Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=.skapa-mvagent-wrapper-prefix-form-field__content in page."}
+{"level":30,"time":"2026-03-05T09:48:25.209Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T09:48:25.213Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:25.214Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=.skapa-mvagent-wrapper-prefix-form-field__content in page."}
+{"level":30,"time":"2026-03-05T09:48:25.241Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Retrieved text for element css=.skapa-mvagent-wrapper-prefix-form-field__content containing Please enter a valid email"}
+{"level":30,"time":"2026-03-05T09:48:25.241Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:25.248Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T09:48:25.248Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=#login-email in page."}
+{"level":30,"time":"2026-03-05T09:48:25.260Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T09:48:25.264Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:48:25.264Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"login\"] in page."}
+{"level":30,"time":"2026-03-05T09:48:25.302Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:48:25.306Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T09:48:25.306Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=.skapa-mvagent-wrapper-prefix-inline-message__content h6 in page."}
+{"level":30,"time":"2026-03-05T09:48:26.134Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T09:48:26.139Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:26.139Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=.skapa-mvagent-wrapper-prefix-inline-message__content h6 in page."}
+{"level":30,"time":"2026-03-05T09:48:26.148Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Retrieved text for element css=.skapa-mvagent-wrapper-prefix-inline-message__content h6 containing There was a problem signing in"}
+{"level":30,"time":"2026-03-05T09:48:26.148Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:26.152Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:26.152Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=.skapa-mvagent-wrapper-prefix-inline-message__content p in page."}
+{"level":30,"time":"2026-03-05T09:48:26.163Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Retrieved text for element css=.skapa-mvagent-wrapper-prefix-inline-message__content p containing It’s our fault, not yours. Please try again later to see if we can work it out."}
+{"level":30,"time":"2026-03-05T09:48:26.163Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:26.166Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T09:48:26.166Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=#login-password in page."}
+{"level":30,"time":"2026-03-05T09:48:26.175Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T09:48:26.179Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:48:26.179Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"login\"] in page."}
+{"level":30,"time":"2026-03-05T09:48:26.210Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:48:26.214Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:26.214Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Strict mode is disabled, return first Locator: css=.skapa-mvagent-wrapper-prefix-inline-message__content in page."}
+{"level":30,"time":"2026-03-05T09:48:27.568Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Retrieved text for element css=.skapa-mvagent-wrapper-prefix-inline-message__content containing The email address or password you entered is incorrect or the account does not exist in IKEA Thailand"}
+{"level":30,"time":"2026-03-05T09:48:27.568Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:48:31.107Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Removed page=9b17c3d7-6d4b-4def-9b08-02a153ace8cf from context=5a1150e1-d9fd-4544-9f03-17f57f686200 page stack"}
+{"level":30,"time":"2026-03-05T09:49:39.616Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.617Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.617Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.617Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.618Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.618Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.619Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.619Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.620Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Changed active context: context=5a1150e1-d9fd-4544-9f03-17f57f686200"}
+{"level":30,"time":"2026-03-05T09:49:39.621Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:49:39.626Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:49:39.630Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:39.630Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:49:40.132Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T09:49:40.258Z","pid":23592,"hostname":"DESKTOP-K78VS5B","msg":"End of node method closeAllBrowsers"}

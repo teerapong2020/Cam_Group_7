@@ -7,6 +7,7 @@ Resource    ${CURDIR}/../keywords/pages/top_bar_page.robot
 Resource    ${CURDIR}/../keywords/pages/login_page.robot
 #Variables   ${CURDIR}/testdata/${ENV}/data.yaml
 Variables   ${CURDIR}/translation/th.yaml
+Variables   ${CURDIR}/translation/en.yaml
 Resource    ${CURDIR}/locators/login_locator.robot
 # Resource    ${CURDIR}/locators/product_locator.robot
 Resource    ${CURDIR}/locators/top_bar_locator.robot

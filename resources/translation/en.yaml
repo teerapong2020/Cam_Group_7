@@ -1,0 +1,5 @@
+en:
+    login_email_required: Please enter a valid email
+    login_password_required1: There was a problem signing in
+    login_password_required2: It’s our fault, not yours. Please try again later to see if we can work it out.
+    login_no_id: The email address or password you entered is incorrect or the account does not exist in IKEA Thailand

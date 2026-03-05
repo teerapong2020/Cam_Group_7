@@ -11,10 +11,14 @@ IKEA_001 Verify that user cannot login with empty or invalid credentials
     check error email
     input email      ${IKEA_001.email}
     click login
-    wait for check password 
-    check error password 
+    wait for check password
+    check error password1
+    check error password2
     input password   ${IKEA_001.password}
     click login
+    check error no id
+    
+    
 
 
 
